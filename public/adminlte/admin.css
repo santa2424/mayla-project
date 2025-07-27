@@ -1,0 +1,75 @@
+#M {
+  background-color: #FFC8C8;
+  color: #000;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.main-sidebar {
+    background-color: #FFC8C8 !important;
+    color: #000 !important;
+  }
+
+  /* روابط التنقل داخل الشريط */
+  .main-sidebar .nav-sidebar .nav-link {
+    color: #000 !important;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* عند المرور Hover */
+  .main-sidebar .nav-sidebar .nav-link:hover {
+    background-color: #f9a6a6 !important;
+    color: #fff !important;
+  }
+
+  /* عند الضغط / active */
+  .main-sidebar .nav-sidebar .nav-link.active {
+    background-color: #f58282 !important;
+    color: #fff !important;
+  }
+
+  /* لوغو الشريط العلوي */
+  .brand-link {
+    background-color: #ffbcbc !important;
+    color: #000 !important;
+  }
+
+  .brand-link #M {
+    color: #000 !important;
+    font-weight: bold;
+  }
+
+  /* عند الضغط الفعلي (click) */
+  .main-sidebar .nav-sidebar .nav-link:active {
+    background-color: #e06b6b !important;
+    color: #fff !important;
+  }
+
+
+  .box-pink1 {
+  background-color: #FFC8C8 !important;
+  color: #000;
+}
+.box-pink2 {
+  background-color: #F5A9B8 !important;
+  color: #000;
+}
+.box-pink3 {
+  background-color: #e06b6b !important;
+  color: #fff;
+}
+.box-pink4 {
+  background-color: #f38181 !important;
+  color: #fff;
+}
+
+/* تحسين لون رابط "المزيد" */
+.small-box-footer {
+  background: rgba(0,0,0,0.1);
+  color: inherit;
+  font-weight: 500;
+}

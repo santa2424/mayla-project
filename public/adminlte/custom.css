@@ -1,0 +1,290 @@
+
+
+#M,
+#M-footer {
+  background-color: #c26b6b ;
+  color: #FFF;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.nav-link.active {
+    color: #c26b6b !important;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+
+.hero-section {
+  background-color: #FFC8C8;
+  color: #444F5A;
+  padding: 100px 0;
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-section .btn {
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  border-radius: 8px;
+}
+
+.button-products {
+  color: #444F5A !important;
+  border-color: #444F5A !important;
+}
+
+.button-products:hover,
+.button-products:focus {
+  background-color: #444F5A !important;
+  color: #FFC8C8 !important;
+  border-color: #444F5A !important;
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  background-color: #FFC8C8;
+  border: 2px solid #444F5A;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.icon-circle i {
+  color: #444F5A;
+  font-size: 30px;
+}
+
+.score {
+  display: block;
+  font-size: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.score-wrap {
+  display: inline-block;
+  position: relative;
+  height: 19px;
+}
+
+.score .stars-active {
+  color: #FFCA00;
+  position: relative;
+  z-index: 10;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.score .stars-inactive {
+  color: lightgrey;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rating {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+}
+
+.rating-star {
+  padding: 0 5px;
+  margin: 0;
+  cursor: pointer;
+  display: block;
+  float: left;
+}
+
+.rating-star:after {
+  position: relative;
+  font-family: "Font Awesome 5 Free";
+  content: '\f005';
+  color: lightgrey;
+}
+
+.rating-star.checked ~ .rating-star:after,
+.rating-star.checked:after {
+  content: '\f005';
+  color: #FFCA00;
+}
+
+.rating:hover .rating-star:after {
+  content: '\f005';
+  color: lightgrey;
+}
+
+.rating-star:hover ~ .rating-star:after,
+.rating .rating-star:hover:after {
+  content: '\f005';
+  color: #FFCA00;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar .nav-link {
+    padding: 10px 0;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1.1rem;
+  }
+
+  footer .col-md-4 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  footer h5 {
+    margin-top: 20px;
+  }
+
+  footer ul {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-section {
+    padding: 40px 15px;
+  }
+
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .hero-section .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+
+  
+  #M,
+  #M-footer {
+    font-size: 16px;
+    padding: 3px 8px;
+  }
+
+  footer h5 {
+    font-size: 1rem;
+  }
+
+  footer p, footer li {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+
+  .navbar .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .hero-section h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-section p {
+    font-size: 0.9rem;
+  }
+
+  footer h3 {
+    font-size: 1.2rem;
+  }
+
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .icon-circle i {
+    font-size: 24px;
+  }
+}
+.mt-6 {
+  margin-top: 4rem !important; /* أكبر من mt-5 */
+}
+
+.mt-7 {
+  margin-top: 5rem !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(57%) sepia(52%) saturate(4540%) hue-rotate(328deg) brightness(99%) contrast(100%);
+}
+.contact-icon {
+    color: #e06b6b;
+    transition: all 0.3s ease;
+  }
+
+  .contact-icon:hover {
+    color: #FFC8C8;
+    transform: translateY(-2px);
+  }
+
+  .contact-info-list li {
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+
+
